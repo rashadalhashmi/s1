@@ -1,0 +1,60 @@
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.main{
+    width: 90%;
+    margin:100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.parent{
+ display: flex;
+ align-content: space-around;
+  
+
+}
+.child{
+    width: 50%;
+    margin: 10px;
+}
+
+#fullnameValidator{
+    color: red;
+}
+.validationMessage{
+    font-size: medium;
+    color: red;
+}
+/* ====================================================== */
+
+.carousel-slide{
+    border: 3px solid red;
+    margin: auto;
+
+    width: fit-content;
+}
+.actions{
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid salmon;
+}
+.gallery{
+    margin: auto;
+    border: 1px solid red;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 20%;
+    height: 100px;
+}

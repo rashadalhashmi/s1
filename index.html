@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <form id="myForm" action="">
+            <div class="parent">
+                <div class="child"> <label for="Fullname"> full name</label> </div>
+                <div class="child">
+                    <input type="text" name="Fullname  " id="fullname" placeholder="Enter Your Name">
+                        <span class="validationMessage" id="fullnameValidator">
+                        </span>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="child"> <label for="Email" >Email</label> </div>
+                <div class="child"> <input type="email" name="Emalil" id="email" required> </div>
+            </div>
+            <div class="parent">
+                <div class="child"> <label for="Password">password</label> </div>
+                <div class="child">
+                    <input type="text" name='Password' id="password">
+                        <span id="passwordValidator"></span>
+                </div>
+            </div>
+
+            <div class="parent">
+                <div class="child"><label for="repeatPassword"> reapeted password</label> </div>
+                <div class="child">
+                    <input type="text" name="repeatPassword" id="repeatpassword">
+                   <div class="validationMessage">  
+                      <span  id="repeatpasswordValidator"></span>
+                   </div> 
+                </div>
+
+            </div>
+
+            <div class="parent">
+                <div class="child"><label for="City">City</label> </div>
+
+                <div class="child">
+                    <select name="City" id="city">
+                        <option value="Cairo">cairo</option>
+                        <option value="Alex">alex</option>
+                        <option value="Mansora">mansora</option>
+                        <option value="Giza">giza</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="parent">
+                <div class="child"> <input type="checkBox" name="Terms"> </div>
+                <div class="child"> <label for="Terms">I accept the terms and conditions</label> </div>
+            </div>
+               
+               <br>
+
+            <div style="text-align: center;">
+                  <input  type="submit"  id="submitInput">
+            </div>
+        </form>
+
+
+    </div>
+
+ 
+
+   <div class="carousel-container">
+       <div class="carousel-slide">
+          
+        <img  name='slide' width="400" height="200" alt="">
+       
+
+       </div>
+   </div>
+   <div class="actions">
+    <button id="prevBtn">Prev</button>
+    <button id="stopBtn">stop</button>
+    <button id="playBtn">Play</button>
+    <button id="nextBtn">next</button>
+   </div>
+
+
+   <div class="gallery">
+    
+      <img src="./static/1.jpg" alt="">
+      <img src="./static/2.jpg" alt="">
+      <img src="./static/3.jpg" alt="">
+      <img src="./static/4.jpg" alt="">
+     
+   </div>
+
+
+
+   
+   
+
+
+   
+
+
+
+
+<script src="./source.js"></script>
+</body>
+
+</html>
